@@ -1,0 +1,64 @@
+site_name: "Энциклопедия Мэйна"
+site_url: https://stormeij.gitlab.io/main-world-wiki/
+nav:
+  - "Главная": index.md
+  - "О мире": 
+    - "Космогония": world/cosmogony.md
+    - "Планы Мэйна": world/planes.md
+    - "География": world/geography.md
+    - "Хронология": world/timeline.md
+  - "Места": 
+    - "Джадамар": locations/jadhamar.md
+  - "История": 
+    - "Северная война": history/northren_war.md
+  - "Расы":
+    - "Список рас": race/list_race.md
+    - "Люди": race/human.md
+  - "Существа":
+    - "Аурохи": creatures/aurochs.md
+  - "Персонажи": 
+    - "Виглаф": characters/viglaf.md
+  - "Другое": 
+    - "Книги": other/books.md
+  - "Странная Система":
+    - "Предисловие": strangesystem/0_strange_system.md
+    - "Общие механики": strangesystem/1_system_general_mechanics.md
+    - "Механика бросков": strangesystem/2_system_dice_rolls.md
+    - "Ранения, усталость и стресс": strangesystem/3_system_injuries.md
+    - "Модификаторы": strangesystem/4_system_modifiers.md
+    - "Персонаж": strangesystem/5_system_character.md
+    - "Таланты и изъяны": strangesystem/6_system_talents_flaws.md
+    - "Баланс": strangesystem/7_system_balance.md
+    - "Навыки": strangesystem/8_system_skills.md
+    - "Социальные механики": strangesystem/9_system_social_mechanics.md
+    - "Инвентарь и снаряжение": strangesystem/10_system_inventory.md
+    - "Питомцы и другое имущество": strangesystem/11_system_pets_other.md
+    - "Дополнительные механики": strangesystem/12_system_additional_mechanics.md
+theme:
+  name: material
+  # Цвета
+  palette:
+    primary: white  # Доступные цвета: red, pink, purple, deep purple, blue, teal и т.д.
+    accent: green
+  # Шрифты
+  font:
+    text: Roboto  # Основной текст
+    code: JetBrains Mono  # Код
+  # Лого и фавиконка
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+
+  # Расширенные настройки
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.logo
+    #- header.autohide
+
+plugins:
+  - search
+  - tags:  # Теги для статей
+
+
+extra_css:
+  - stylesheets/extra.css
