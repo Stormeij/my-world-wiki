@@ -1,5 +1,5 @@
 site_name: "Энциклопедия Мэйна"
-site_url: https://stormeij.gitlab.io/main-world-wiki/
+site_url: https://stormeij.github.io/my-world-wiki/
 nav:
   - "Главная": index.md
   - "О мире": 
@@ -7,16 +7,20 @@ nav:
     - "Планы Мэйна": world/planes.md
     - "География": world/geography.md
     - "Хронология": world/timeline.md
+    - "Итейра": world/iteira.md
   - "Места": 
     - "Джадамар": locations/jadhamar.md
-  - "История": 
+  - "История":
+    - "Крылатая почта": history/winged_mail.md 
     - "Северная война": history/northren_war.md
+    - "Война трёх рас": history/three_races_war.md
   - "Расы":
     - "Список рас": race/list_race.md
     - "Люди": race/human.md
   - "Существа":
     - "Аурохи": creatures/aurochs.md
-  - "Персонажи": 
+  - "Персонажи":
+    - "Небесные всадники": characters/sky_riders.md 
     - "Виглаф": characters/viglaf.md
   - "Другое": 
     - "Книги": other/books.md
