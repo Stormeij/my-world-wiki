@@ -1,5 +1,5 @@
 site_name: "Энциклопедия Мэйна"
-site_url: https://stormeij.github.io/my-world-wiki/
+site_url: https://my-world-wiki.netlify.app/
 nav:
   - "Главная": index.md
   - "О мире": 
