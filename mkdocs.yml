@@ -15,8 +15,17 @@ nav:
     - "Северная война": history/northren_war.md
     - "Война трёх рас": history/three_races_war.md
   - "Расы":
-    - "Список рас": race/list_race.md
-    - "Люди": race/human.md
+    - "Список рас": race/0_list_race.md
+    - "Люди": race/1_human.md
+    - "Эйны": race/2_ein.md
+    - "Талги": race/3_talg.md
+    - "Тавры": race/4_taur.md
+    - "Великаны": race/5_giant.md
+    - "Стеннары": race/6_stennar.md
+    - "Урсы": race/7_urs.md
+    - "Ульфы": race/8_ulf.md
+    - "Сетксар": race/9_setksar.md
+    - "Ксар": race/10_ksar.md
   - "Существа":
     - "Аурохи": creatures/aurochs.md
   - "Персонажи":
