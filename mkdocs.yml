@@ -11,7 +11,6 @@ nav:
   - "Места": 
     - "Джадамар": locations/jadhamar.md
   - "История":
-    - "Крылатая почта": history/winged_mail.md 
     - "Северная война": history/northren_war.md
     - "Война трёх рас": history/three_races_war.md
   - "Расы":
@@ -27,6 +26,7 @@ nav:
     - "Сетксар": race/9_setksar.md
     - "Ксар": race/10_ksar.md
   - "Существа":
+    - "Крылатая почта": creatures/winged_mail.md 
     - "Аурохи": creatures/aurochs.md
   - "Персонажи":
     - "Небесные всадники": characters/sky_riders.md 
