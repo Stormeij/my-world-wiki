@@ -10,6 +10,9 @@ nav:
     - "Итейра": world/iteira.md
   - "Места": 
     - "Джадамар": locations/jadhamar.md
+    - "Сарабант": locations/sarabant.md
+    - "Вейлмарк": locations/veilmark.md
+    - "Киельнира": locations/kielnira.md
   - "История":
     - "Северная война": history/northren_war.md
     - "Война трёх рас": history/three_races_war.md
