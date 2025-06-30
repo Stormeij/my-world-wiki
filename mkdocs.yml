@@ -1,5 +1,6 @@
 site_name: "Энциклопедия Мэйна"
 site_url: https://my-world-wiki.netlify.app/
+site_dir: public
 nav:
   - "Главная": index.md
   - "О мире": 
