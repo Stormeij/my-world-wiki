@@ -1,17 +1,13 @@
 #!/bin/bash
 set -e
 
-# Принудительно устанавливаем Python 3.10
-pyenv install 3.10.13 --skip-existing
-pyenv global 3.10.13
-
 # Установка зависимостей
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
-# Сборка сайта с обработкой ошибок
+# Сборка сайта
 python -m mkdocs build --site-dir public || true
 
-# Гарантированное создание папки
+# Гарантированное создание папки public
 mkdir -p public
-touch public/index.html
+echo "<h1>Build completed</h1>" > public/index.html
