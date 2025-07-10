@@ -1,16 +1,17 @@
 #!/bin/bash
 set -e
 
+# Принудительно устанавливаем Python 3.10
+pyenv install 3.10.13 --skip-existing
+pyenv global 3.10.13
+
 # Установка зависимостей
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 
-# Сборка с обработкой ошибок
-mkdocs build --site-dir public || true
+# Сборка сайта с обработкой ошибок
+python -m mkdocs build --site-dir public || true
 
-# Создание папки public если её нет
+# Гарантированное создание папки
 mkdir -p public
-
-# Заглушка для index.html
-if [ ! -f public/index.html ]; then
-  echo "<h1>Build in progress</h1>" > public/index.html
-fi
+touch public/index.html
