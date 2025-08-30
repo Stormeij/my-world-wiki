@@ -34,6 +34,9 @@ nav:
   - "Существа":
     - "Крылатая почта": creatures/winged_mail.md 
     - "Аурохи": creatures/aurochs.md
+    - "Аэлхи": creatures/aelchs.md
+    - "Арахи": creatures/arach.md
+    - "Бадри": creatures/badri.md
   - "Персонажи":
     - "Небесные всадники": characters/sky_riders.md 
     - "Виглаф": characters/viglaf.md
